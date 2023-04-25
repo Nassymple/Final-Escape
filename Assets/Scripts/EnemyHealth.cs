@@ -1,28 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-public class EnemyHealth : MonoBehaviour
-{
-    public int health = 100;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public void TakeDamage(int amount)
-    {
-        health -= amount;
-
-        if(health <= 0)
-        {
-            Destroy(gameObject);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fcc9c65396d74025a3580c0cf84fe26130194e1e8f5b9b61518d7d0a766e2d7
+size 777
